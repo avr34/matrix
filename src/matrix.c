@@ -3,11 +3,6 @@
 #include <math.h>
 #include "matrix.h"
 
-struct matrix{
-	double * data;
-	int rows, cols;
-};
-
 Matrix * initMat(int Rows, int Cols){
 	Matrix * newMat = malloc(sizeof(Matrix));
 	newMat->rows = Rows;
